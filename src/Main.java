@@ -10,7 +10,11 @@ public class Main {
             ArrayListSum als = new ArrayListSum();
             int aslResult = als.ArrayListGetSum();
             System.out.println("ArrayList Sum: "+ aslResult);
+
+            //ArrayListComparisson 
+            CompareArrayTriplets cat = new CompareArrayTriplets();
+            System.out.println(cat.CompareArrayTriplets1());
     
-        }
+        } 
     
 }
